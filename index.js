@@ -9,9 +9,16 @@ import ReactDOM from 'react-dom';
 //     <App />
 //   </React.StrictMode>,
   //  document.getElementById('root');
+  const myelement = (
+    <ul>
+      <li>Banana</li>
+      <li>Apple</li>
+      <li>Chickoo</li>
+    </ul>
+  )
 
-const myelement=React.createElement('h1',{},'I do not love JSX');
-ReactDOM.render(myelement,document.getElementById('root'));
+
+  ReactDOM.render(myelement, document.getElementById('root'));
  
 
 
