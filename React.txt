@@ -1,0 +1,19 @@
+
+const myElement = <h1>Welcome to GeeksforGeeks ! </h1>;  
+ReactDOM.render(myElement, document.getElementById("root"));
+
+const myelement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>Swetha</td>
+    </tr>
+    <tr>
+      <td>Arvind</td>
+    </tr>
+  </table>
+);
+ReactDOM.render(myelement,document.getElementById('root'))
+ReactDOM.render(<p>Hallo</p>, document.getElementById('root'));
