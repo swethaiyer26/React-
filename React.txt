@@ -17,3 +17,4 @@ const myelement = (
 );
 ReactDOM.render(myelement,document.getElementById('root'))
 ReactDOM.render(<p>Hallo</p>, document.getElementById('root'));
+ const myelement =<input type="text"/>
