@@ -10,12 +10,11 @@ import ReactDOM from 'react-dom';
 //   </React.StrictMode>,
   //  document.getElementById('root');
   const myelement = (
-    <ul>
-      <li>Banana</li>
-      <li>Apple</li>
-      <li>Chickoo</li>
-    </ul>
-  )
+    <div>
+      <h1><i>I like JSX</i></h1>
+      <h2><b>Hello</b>I dont like JSX</h2>
+    </div>
+  );
 
 
   ReactDOM.render(myelement, document.getElementById('root'));
